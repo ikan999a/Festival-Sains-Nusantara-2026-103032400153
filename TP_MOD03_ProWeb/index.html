@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Festival Sains Nusantara 2026</title>
+<style>
+  body {
+    margin: 20px auto;
+    max-width: 850px;
+    padding: 0 15px;
+    color: #1a1a1a;
+    line-height: 1.5;
+  }
+  nav {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 8px 0;
+    margin-bottom: 20px;
+  }
+  nav a {
+    color: #1a1a1a;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 0.95em;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  h1 {
+    font-size: 1.8em;
+    margin-bottom: 2px;
+  }
+  h1 + p {
+    margin-top: 0;
+    font-style: italic;
+    color: #555;
+  }
+  h2 {
+    font-size: 1.3em;
+    border-bottom: 1px solid #999;
+    padding-bottom: 4px;
+    margin-top: 35px;
+  }
+  table.info-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+  }
+  table.info-table th, table.info-table td {
+    border: 1px solid #666;
+    padding: 6px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  table.info-table th {
+    width: 22%;
+    background-color: #eee;
+  }
+  .event-image {
+    max-width: 100%;
+    display: block;
+    margin: 10px 0;
+  }
+  .kegiatan {
+    margin-bottom: 14px;
+  }
+  .kegiatan h3 {
+    margin-bottom: 3px;
+    font-size: 1.05em;
+  }
+  .kegiatan p {
+    margin-top: 0;
+  }
+  table.jadwal-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 0.95em;
+  }
+  table.jadwal-table caption {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 6px;
+    caption-side: top;
+  }
+  table.jadwal-table th, table.jadwal-table td {
+    border: 1px solid #666;
+    padding: 5px 8px;
+    text-align: center;
+  }
+  table.jadwal-table thead th {
+    background-color: #ddd;
+  }
+  table.jadwal-table tfoot td {
+    font-size: 0.85em;
+    text-align: left;
+    font-style: italic;
+  }
+  form.pendaftaran {
+    max-width: 400px;
+    margin-top: 10px;
+  }
+  form.pendaftaran label {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.95em;
+  }
+  form.pendaftaran input,
+  form.pendaftaran select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 0.95em;
+  }
+  form.pendaftaran button {
+    margin-top: 15px;
+    padding: 6px 18px;
+    font-size: 0.95em;
+  }
+  form.pendaftaran fieldset {
+    margin-top: 12px;
+    border: 1px solid #999;
+    padding: 8px 12px 12px;
+  }
+  form.pendaftaran legend {
+    font-size: 0.95em;
+    padding: 0 4px;
+  }
+  form.pendaftaran label.pilihan {
+    display: block;
+    font-weight: normal;
+    margin-top: 4px;
+  }
+  form.pendaftaran label.pilihan input {
+    width: auto;
+    margin-right: 6px;
+  }
+  form.pendaftaran textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 0.95em;
+  }
+  footer {
+    margin-top: 40px;
+    border-top: 1px solid #999;
+    padding-top: 8px;
+    font-size: 0.85em;
+    color: #555;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#beranda">Beranda</a>
+  <a href="#acara">Acara</a>
+  <a href="#jadwal">Jadwal</a>
+  <a href="#pendaftaran">Pendaftaran</a>
+</nav>
+
+<h1>Festival Sains Nusantara 2026</h1>
+<p>Explore Science, Inspire the Future</p>
+
+<section id="beranda">
+  <h2>Beranda</h2>
+  <table class="info-table">
+    <tr>
+      <th>Nama Acara</th>
+      <td>Festival Sains Nusantara 2026</td>
+    </tr>
+    <tr>
+      <th>Tema</th>
+      <td>Explore Science, Inspire the Future</td>
+    </tr>
+    <tr>
+      <th>Penyelenggara</th>
+      <td>Nusantara Science Community</td>
+    </tr>
+    <tr>
+      <th>Deskripsi</th>
+      <td>
+        Festival Sains Nusantara 2026 merupakan kegiatan yang menghadirkan
+        seminar, workshop, dan kompetisi sains bagi pelajar, mahasiswa, dan
+        masyarakat umum.
+        <img src="festival-sains-nusantara.jpeg" alt="Suasana Festival Sains Nusantara" class="event-image">
+      </td>
+    </tr>
+    <tr>
+      <th>Informasi Acara</th>
+      <td>
+        <ul>
+          <li>Tanggal: 21 November 2026</li>
+          <li>Waktu: 08.00 - 17.00 WIB</li>
+          <li>Tempat: Gedung Sains Nusantara</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</section>
+
+<section id="acara">
+  <h2>Acara</h2>
+
+  <div class="kegiatan" id="workshop-sains">
+    <h3>Workshop Sains</h3>
+    <p>Peserta dapat mengikuti kegiatan eksperimen dan pembelajaran sains secara langsung melalui workshop yang disediakan.</p>
+  </div>
+
+  <div class="kegiatan" id="kompetisi-sains">
+    <h3>Kompetisi Sains</h3>
+    <p>Kompetisi memberikan kesempatan kepada peserta untuk menampilkan ide dan proyek sains mereka.</p>
+  </div>
+
+  <div class="kegiatan" id="seminar-sains">
+    <h3>Seminar Sains</h3>
+    <p>Seminar menghadirkan pembicara untuk berbagi pengetahuan tentang perkembangan sains dan teknologi terkini.</p>
+  </div>
+</section>
+
+<section id="jadwal">
+  <h2>Jadwal</h2>
+  <table class="jadwal-table">
+    <caption>Jadwal Kegiatan Festival Sains Nusantara 2026</caption>
+    <thead>
+      <tr>
+        <th rowspan="2">Hari</th>
+        <th rowspan="2">Waktu</th>
+        <th colspan="2">Program</th>
+        <th rowspan="2">Kategori</th>
+      </tr>
+      <tr>
+        <th>Sesi</th>
+        <th>Materi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="5">Jumat</td>
+        <td>08.00-09.00</td>
+        <td>Pembukaan</td>
+        <td>Opening Ceremony</td>
+        <td>Umum</td>
+      </tr>
+      <tr>
+        <td>09.00-11.00</td>
+        <td>Workshop</td>
+        <td>Eksperimen Fisika</td>
+        <td>Pelajar</td>
+      </tr>
+      <tr>
+        <td>09.00-11.00</td>
+        <td>Workshop</td>
+        <td>Dasar Data Science</td>
+        <td>Mahasiswa</td>
+      </tr>
+      <tr>
+        <td>11.00-12.00</td>
+        <td>Seminar</td>
+        <td>Teknologi dan Masa Depan</td>
+        <td>Umum</td>
+      </tr>
+      <tr>
+        <td>13.00-15.00</td>
+        <td>Workshop</td>
+        <td>Robotika Dasar</td>
+        <td>Pelajar</td>
+      </tr>
+
+      <tr>
+        <td rowspan="4">Sabtu</td>
+        <td>08.00-10.00</td>
+        <td>Kompetisi</td>
+        <td>Science Project</td>
+        <td>Pelajar</td>
+      </tr>
+      <tr>
+        <td>08.00-10.00</td>
+        <td>Kompetisi</td>
+        <td>Data Challenge</td>
+        <td>Mahasiswa</td>
+      </tr>
+      <tr>
+        <td>10.00-12.00</td>
+        <td>Seminar</td>
+        <td>Inovasi Energi</td>
+        <td>Umum</td>
+      </tr>
+      <tr>
+        <td>13.00-15.00</td>
+        <td>Seminar</td>
+        <td>Kecerdasan Buatan</td>
+        <td>Umum</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Minggu</td>
+        <td>08.00-10.00</td>
+        <td>Kompetisi</td>
+        <td>Robotik Nusantara</td>
+        <td>Umum</td>
+      </tr>
+      <tr>
+        <td>10.00-12.00</td>
+        <td>Penutupan</td>
+        <td>Closing Ceremony</td>
+        <td>Umum</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">Jadwal kegiatan dapat mengalami perubahan sesuai kondisi penyelenggaraan acara.</td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+
+<section id="pendaftaran">
+  <h2>Pendaftaran</h2>
+  <p>Silakan isi formulir berikut untuk mendaftar sebagai peserta Festival Sains Nusantara 2026.</p>
+  <form class="pendaftaran">
+    <label for="nama">Nama Lengkap</label>
+    <input type="text" id="nama" name="nama" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="telepon">Nomor Telepon</label>
+    <input type="tel" id="telepon" name="telepon" required>
+
+    <label for="institusi">Institusi / Asal Sekolah</label>
+    <input type="text" id="institusi" name="institusi">
+
+    <label for="tanggal_lahir">Tanggal Lahir</label>
+    <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+
+    <fieldset>
+      <legend>Jenis Kelamin</legend>
+      <label class="pilihan"><input type="radio" name="jenis_kelamin" value="laki-laki" required> Laki-laki</label>
+      <label class="pilihan"><input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Kategori Peserta</legend>
+      <label class="pilihan"><input type="radio" name="kategori" value="pelajar" required> Pelajar</label>
+      <label class="pilihan"><input type="radio" name="kategori" value="mahasiswa"> Mahasiswa</label>
+      <label class="pilihan"><input type="radio" name="kategori" value="umum"> Umum</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pilihan Kegiatan</legend>
+      <label class="pilihan"><input type="checkbox" name="kegiatan" value="workshop_fisika"> Workshop Eksperimen Fisika</label>
+      <label class="pilihan"><input type="checkbox" name="kegiatan" value="workshop_data_science"> Workshop Dasar Data Science</label>
+      <label class="pilihan"><input type="checkbox" name="kegiatan" value="seminar_masa_depan"> Seminar Teknologi dan Masa Depan</label>
+      <label class="pilihan"><input type="checkbox" name="kegiatan" value="workshop_robotika"> Workshop Robotika Dasar</label>
+      <label class="pilihan"><input type="checkbox" name="kegiatan" value="kompetisi_science_project"> Kompetisi Science Project</label>
+      <label class="pilihan"><input type="checkbox" name="kegiatan" value="kompetisi_data_challenge"> Kompetisi Data Challenge</label>
+      <label class="pilihan"><input type="checkbox" name="kegiatan" value="seminar_inovasi_energi"> Seminar Inovasi Energi</label>
+      <label class="pilihan"><input type="checkbox" name="kegiatan" value="seminar_kecerdasan_buatan"> Seminar Kecerdasan Buatan</label>
+      <label class="pilihan"><input type="checkbox" name="kegiatan" value="kompetisi_robotik_nusantara"> Kompetisi Robotik Nusantara</label>
+    </fieldset>
+
+    <label for="kebutuhan_khusus">Kebutuhan Khusus</label>
+    <textarea id="kebutuhan_khusus" name="kebutuhan_khusus" rows="4" placeholder="Informasi tambahan yang perlu diperhatikan panitia (opsional)"></textarea>
+
+    <button type="submit">Daftar Sekarang</button>
+  </form>
+</section>
+
+<footer>
+  &copy;2026 Nusantara Science Community
+</footer>
+
+</body>
+</html>
